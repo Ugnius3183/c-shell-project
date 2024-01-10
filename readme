@@ -1,0 +1,85 @@
+C Shell Command Line Interface
+
+The following commands are available in this shell:
+
+cd [path]
+    Change the current working directory to the specified path.
+    If no path is specified, the home directory is used.
+
+clr
+    Clear the terminal screen.
+
+dir [path]
+    List the contents of the specified directory.
+    If no path is specified, the current directory is used.
+
+environ
+    Print all environment strings.
+
+echo [message]
+    Echo the specified message to the terminal.
+    If no message is specified, a blank line is printed.
+
+help
+    Display this user manual.
+
+pause
+    Pause the operation of the shell until you press ENTER.
+
+quit
+    Quit the shell.
+
+Usage:
+    To use a command, simply type its name followed by any necessary arguments.
+    To quit the shell, type "quit".
+
+Environment:
+    A programming environment is a tool that programmers use which provides the necessary
+    infrastructure needed for programming code. Environments contain text editors, compilers
+    or interpretters, and debuggers necessary to the production of code and the ability
+    to test code.
+
+I/O Redirection:
+    Allows control over where standard input, standard output, and standard error
+    streams are piped. Allows to optimize a program's workflow for more efficient
+    productivity.
+
+    Usage:
+        "<" inputfile - Redirects input from command line to file
+        ">" outputfile - Redirects output from the terminal to file
+        ">>" outputfile - Redirects and appends output from the terminal to existing file. Creates new file if one does not exists.
+
+Process:
+    A process is a currently running instance of a program. Any command that is executed starts a
+    process and will persist until the program reaches its end or is manually stopped by a keyboard
+    interrupt.
+
+    Types of processes:
+        Foreground process - A process that runs on the terminal it was executed on, the process must finished before running additional commands
+        Background process - A process that runs in the background, freeing up the terminal to be used for additional commands
+
+    Usage:
+        command[&] - Runs specified command in background
+
+References:
+    Digital Ocean: "An Introduction to Linux I/O Redirection." https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-i-o-redirection (accessed March 16 2023)
+    0bvii : "Why do we need a programming environment?",Learn at Noon https://www.learnatnoon.com/s/en-pk2/why-do-we-need-a-programming-environment/ (accessed March 16 2023)
+    Luke Reynolds : "Understanding foreground and background processes in Linux", Linuxconfig.org https://linuxconfig.org/understanding-foreground-and-background-linux-processes (accessed March 17 2023)
+
+Student - Ugnius Packevicius
+Student Number - 21455772
+Date - 17/03/2023
+
+I understand that the University regards breaches of academic integrity and plagiarism as grave and serious.
+
+I have read and understood the DCU Academic Integrity and Plagiarism Policy. I accept the penalties that may be imposed should I engage in practice or practices that breach this policy.
+
+I have identified and included the source of all facts, ideas, opinions and viewpoints of others in the assignment references. Direct quotations, paraphrasing, discussion of ideas from books, journal articles, internet sources, module text, or any other source whatsoever are acknowledged and the sources cited are identified in the assignment references.
+
+I declare that this material, which I now submit for assessment, is entirely my own work and has not been taken from the work of others save and to the extent that such work has been cited and acknowledged within the text of my work.
+
+I have used the DCU library referencing guidelines (available at https://www4.dcu.ie/library/classes_and_tutorials/citingreferencing.shtml and/or the appropriate referencing system recommended in the assignment guidelines and/or programme documentation.
+
+By signing this form or by submitting material online I confirm that this assignment, or any part of it, has not been previously submitted by me or any other person for assessment on this or any other course of study.
+ 
+By signing this form or by submitting material for assessment online I confirm that I have read and understood the DCU Academic Integrity and Plagiarism Policy (available at http://www.dcu.ie/registry/examinations/index.shtml).
